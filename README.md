@@ -20,6 +20,10 @@ In the above code, **frontend-one** and **frontend-two** do not have any compone
  Setup will be having Webpack 5 and Module Federation Plugin. 
 
 #
+#
+#
+
+# Micro Frontend
 
 **Micro Frontends** have been growing, recently, because of the need to break the Frontend monolith and the success showed in Microservices architecture.
 
@@ -30,6 +34,7 @@ In the above code, **frontend-one** and **frontend-two** do not have any compone
 ##
 
 **What is a Micro-Frontend?**
+
 Micro front-ends are a way to split the monolith front-end codebase into smaller, more manageable pieces. As a result, front-end teams can enjoy similar benefits to those of microservices: maintainable codebases, autonomous teams, independent releases, and incremental upgrades.
 
  In the Micro-Frontend Architecture, there is a “Host” or a “Container” page that can host one or more Micro-Frontends. The Host/Container page can also share some of its own Micro-Frontend components.
