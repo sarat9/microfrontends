@@ -4,7 +4,20 @@ Micro Frontends Architecture using React.js and Webpack
 
 #
 
- SetUp will be having Webpack 5 and Module Federation Plugin. 
+
+## Application Architecture
+
+The application consists of 3 different Microservices
+
+-   [micro-frontends-host](https://github.com/sarat9/microfrontends/tree/master/micro-frontends-host)  - Micro Frontend host - Container of shared components
+-   [frontend-one](https://github.com/sarat9/microfrontends/tree/master/frontend-one)  - Basic Frontend React App uses components from Host application
+-   [frontend-two](https://github.com/sarat9/microfrontends/tree/master/frontend-two)  - Basic Frontend React App uses components from Host application
+
+In the above code, **frontend-one** and **frontend-two** do not have any components in its code but will use a component called *FancyButton* which is hosted in **micro-frontends-host**.
+
+> This shows by hosting a common container host across teams in a company or community, multiple UI appications can use components developed by multiple teams in a shared environment at runtime.
+
+ Setup will be having Webpack 5 and Module Federation Plugin. 
 
 #
 
