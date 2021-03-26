@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-import FancyButton from './components/FancyButton/FancyButton'
+const RemoteFancyButton = React.lazy(()=> import('microfrontendshost/FancyButton'))
 
 function App() {
   return (
@@ -10,11 +9,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Micro Frontend Host - Container of all the shared components
+         Application - Frontend Two
         </p>
         <br />
-        
-        <FancyButton />
+        <React.Suspense fallback="Loading...">
+          <RemoteFancyButton />
+        </React.Suspense>
       </header>
     </div>
   );
