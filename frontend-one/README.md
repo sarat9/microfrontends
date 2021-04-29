@@ -3,5 +3,5 @@
 
 ### `npm run start`
 
-Open http://localhost:1000 to view it in the browser.
+Open http://localhost:1001 to view it in the browser.
 
