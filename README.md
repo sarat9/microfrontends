@@ -74,6 +74,7 @@ shared: This library will be imported if the consumer app doesn’t have it.
 ##
 Src and Ref:
 
+- https://micro-frontends.org/
 - https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc
 - https://blog.bitsrc.io/revolutionizing-micro-frontends-with-webpack-5-module-federation-and-bit-99ff81ceb0
 - https://levelup.gitconnected.com/micro-frontends-what-why-and-how-bf61f1f0a729
